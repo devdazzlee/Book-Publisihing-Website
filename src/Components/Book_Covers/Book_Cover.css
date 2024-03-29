@@ -1,0 +1,15 @@
+
+
+/* Media query for laptops */
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .book-cover-card{
+width: 30%;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .book-cover-card{
+width: 80%;
+min-height: 1rem;
+    }
+  }
+  

@@ -1,0 +1,77 @@
+*{
+  
+}
+
+
+input:focus, textarea {
+    outline: 0 !important;
+}
+
+.form-shadow{
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.banner-bg{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-image: url('../../Images/white-paper-texture.avif');
+}
+
+.banner-bg-img-text{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.banner-section-1{
+width: 45%;
+}
+.banner-section-2{
+/* width: 45%; */
+}
+
+.banner-section-3{
+    width:25%;
+    margin-left: 20px;
+    }
+@media only screen and (max-width: 767px) {
+
+    .banner-section-3{
+        width: 50%;
+        padding: 10px 10px;
+        }
+
+    .banner-section-1{
+        width: auto;
+        padding: 10px 10px;
+    }
+
+    .banner-section-2{
+        width: 100%;
+    }
+    .form-button-full{
+        width: 100%;
+    }
+    .form-shadow{
+        width: 80%;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    /* .form-button-1{
+
+    } */
+  }
+  

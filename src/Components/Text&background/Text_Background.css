@@ -1,0 +1,36 @@
+.bg-cover-image{
+    background-image: url('../../Images/image_2024_03_26T20_12_09_502Z.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+
+    height: 35rem;
+justify-content: center;
+}
+.bg-cover-image2{
+    background-image: url('../../Images/image_2024_03_26T20_12_18_581Z.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    height: 35rem;
+justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Styles for mobile devices */
+    /* For example: */
+    .hover-bt-1 {
+        margin-right: 10px;
+        margin-bottom: 10px;
+     width: 12rem;
+    }
+    .hover-bt-2{
+        margin: auto;
+
+     width: 12rem;
+
+    }
+  }
+  

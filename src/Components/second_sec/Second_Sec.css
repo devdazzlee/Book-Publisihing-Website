@@ -1,0 +1,14 @@
+
+
+
+@media (max-width: 768px) {
+    .second-sec-container {
+      /* Add your responsive styles here */
+      /* For example, you can change the flex direction */
+      flex-direction: column;
+    }
+    .iframe-location{
+    width: 100%;
+    }
+  }
+  

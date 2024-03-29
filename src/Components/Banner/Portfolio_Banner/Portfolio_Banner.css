@@ -1,0 +1,13 @@
+.portfolio-banner{
+
+    background-image: url('../../../Images/banner1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    font-family: Poppins;
+    background-position: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

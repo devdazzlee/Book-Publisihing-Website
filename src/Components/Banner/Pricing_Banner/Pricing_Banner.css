@@ -1,0 +1,32 @@
+.pricing-banner{
+    background-color: #141d29;
+    color: transparent  ;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+font-family: Poppins;
+}
+.top-compe{
+    background-color : transparent ;
+}
+.hover-bt-5{
+    color:  white;
+border: 2px solid cyan;
+}
+.hover-bt-5:hover{
+
+    color: white;
+}
+.hover-bt-6{
+    background-color :  cyan;
+    color: #141D29;
+}
+.hover-bt-6:hover{
+background: white;
+    color: black;
+    border: 1px solid #141D29;
+
+}
+/* Media query for mobile devices */

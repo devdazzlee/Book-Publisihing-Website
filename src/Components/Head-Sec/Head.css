@@ -1,0 +1,20 @@
+.hover-bt-1{
+    color:  #141D29;
+background-color: white;
+border: 2px solid #141D29;
+
+}
+.hover-bt-1:hover{
+    background:#22D3EE ;
+    color: white;
+}
+.hover-bt-2{
+    background-color :  #141D29
+}
+.hover-bt-2:hover{
+background: white;
+    color: black;
+    border: 1px solid #141D29;
+
+}
+/* Media query for mobile devices */

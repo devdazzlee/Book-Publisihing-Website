@@ -1,0 +1,39 @@
+.com-form-inp{
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+.form-banner-bg{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-image: url('../../Images/contact-main-form-bg.png');
+}
+.hover-bt-8{
+    background-color : white;
+width: 24rem;
+    color: black;
+}
+@media only screen and (max-width: 768px) {
+    /* Styles for mobile devices */
+    /* For example: */
+    .hover-bt-8 {
+        margin: auto;
+        width: 12rem;
+    }
+  }
+  
+
+
+
+
+.hover-bt-8:hover{
+background: white;
+    color: black;
+    border: 1px solid #141D29;
+
+}
