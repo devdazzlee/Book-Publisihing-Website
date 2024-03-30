@@ -15,7 +15,7 @@ Ready to turn your story  <span style={{"color":"#0A2840"}}>  <br /> into a  Mas
 <p  className='my-4 md:mr-12 mr-0' >
 Welcome to our team, where we specialize in providing comprehensive ghostwriting, editing, and publishing services meticulously crafted to suit your unique requirements. Whether you're an aspiring author with a captivating story waiting to be told, a seasoned writer seeking refinement for your manuscript, or someone with a brilliant idea but unsure of where to begin, we're here to help you every step of the way.
 </p>
-<div className='flex justify-start' >
+<div className='' >
 <Link to={'/Contact'} >
 <button  type="button" class="hover-bt-1   border border-gray-600  text-white bg-cyan-400	  font-medium rounded-full text-sm px-5 py-2.5 text-center  mb-2  mr-12">Publish Your Work</button>
 </Link>

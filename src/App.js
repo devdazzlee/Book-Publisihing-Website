@@ -89,7 +89,15 @@ const App = () => {
         </>
       }
     />
-
+<Route
+      path={"/book-marketing"}
+      element={
+        <>
+        <ScrollToTop/>
+          <Book_Marketing />
+        </>
+      }
+    />
 
 <Route
       path={"/Book_Editing"}
@@ -101,6 +109,16 @@ const App = () => {
       }
     />
 
+
+<Route
+      path={"/terms-conditions"}
+      element={
+        <>
+        <ScrollToTop/>
+          <Book_Editing />
+        </>
+      }
+    />
 <Route
       path={"/Ghost_Writing"}
       element={

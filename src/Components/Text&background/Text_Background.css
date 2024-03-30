@@ -24,7 +24,7 @@ justify-content: center;
     .hover-bt-1 {
         margin-right: 10px;
         margin-bottom: 10px;
-     width: 12rem;
+        padding: 10px;
     }
     .hover-bt-2{
         margin: auto;

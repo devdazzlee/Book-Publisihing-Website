@@ -11,7 +11,7 @@ Join our online book publishing services to become a published author. <br /> Sh
 
 
 </p>
-<div className='flex  md:w-auto w-full  md:flex-row my-4 md:ml-4 ml-0' >
+<div className='md:w-auto w-full  md:flex-row my-4 md:ml-4 ml-0' >
 <Link to={'/Contact'} >
         
         <button className='hover-bt-1 form-button-1 bg-cyan-400 text-white font-bold py-2 px-6 rounded-full mb-2 md:mb-0 md:mr-4'>

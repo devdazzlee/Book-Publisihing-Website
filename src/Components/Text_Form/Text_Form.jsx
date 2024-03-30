@@ -8,7 +8,7 @@ const Text_Form = () => {
   return (
     <div  className='text-form-responsive  my-24 md:flex  justify-center  w-full'  >
 <div  className='lg:w-6/12 md:w-9/12	md:px-14' >
-    <h1 className='text-2xl md:text-2xl lg:text-5xl font-bold my-4'  >Are You Struggling to give <br /> Words to your Ideas?</h1>
+    <h1 className='text-3xl md:text-5xl lg:text-5xl font-bold my-4  media-text-res'  >Are You Struggling to give <br /> Words to your Ideas?</h1>
     <p   className='text-md  my-4'  >You may be a victim of the following nuisances</p>
 <div className='flex flex-wrap text-white w-3/4 mb-4 justify-between' >
 <ul>
@@ -28,7 +28,7 @@ const Text_Form = () => {
 
 
 
-<div className='flex  md:flex-row'>
+<div className='m-auto  md:flex-row'>
 
 <Link to={'/Contact'} >
         <button className='hover-bt-1 form-button-1 bg-cyan-400 text-white font-bold py-2 px-6 rounded-full mb-2 md:mb-0 md:mr-4 '>

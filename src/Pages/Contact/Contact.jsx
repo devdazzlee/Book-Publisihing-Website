@@ -14,7 +14,7 @@ const Contact = () => {
 </div>
 <Conact_Form/>
 <div>
-<h2 class="mb-4 text-cyan-400 text-5xl tracking-tight font-extrabold text-center text-gray-900 ">Your Publishing Goals Will All Be <br /> Realized Here!</h2>
+<h2 class="mb-4 text-cyan-400 md:text-5xl text-3xl tracking-tight font-extrabold text-center text-gray-900 ">Your Publishing Goals Will All Be <br /> Realized Here!</h2>
       <p class="mb-8 lg:mb-16 font-light text-center text-gray-500  sm:text-xl">Contact us and have yourself a best seller book written now.</p>
 </div>
 
