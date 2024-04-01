@@ -6,8 +6,8 @@ const Pricing_Banner = () => {
   return (
     <div style={{"padding" : "130px 0px"}} className='pricing-banner'   >
 
-<h1  className='md:text-5xl text-3xl text-center   text-white font-bold  mb-4'   >The World Awaits Your Masterpiece!</h1>
-<p   className='text-white text-md text-center my-6'  >Do you wish to see your published work ranked among the best sellers? <br /> Want to earn the stellar reputation of a published author? Dream of having a well-written book to your name?</p>
+<h1  className='md:text-5xl text-2xl text-center   text-white font-bold  mb-4'   >The World Awaits Your Masterpiece!</h1>
+<p   className='md:w-auto   w-80  text-white text-md text-center my-6'  >Do you wish to see your published work ranked among the best sellers? <br /> Want to earn the stellar reputation of a published author? Dream of having a well-written book to your name?</p>
 <div className='flex my-4' >
 <Link to={'/Contact'} >
         

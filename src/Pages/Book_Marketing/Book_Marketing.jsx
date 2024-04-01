@@ -12,6 +12,7 @@ import OppoOneSideText_Image from '../../Components/Banner/OppoOneSideText_Image
 import FormOppo from '../../Components/Banner/FormOppo'
 import Banner from '../../Components/Banner/Banner'
 import Services_Card2 from '../../Components/Services_Card/Service_Card2'
+import Quote_Free from '../../Components/Quote_Free/Quote_Free'
 const Book_Publising = () => {
 
   const listItems = [
@@ -39,18 +40,7 @@ const Book_Publising = () => {
 subtitleText={"Thereadsy Publishers!"}
      paragraph={"Get your book noticed with our expert marketing service! We offer strategic planning, targeted promotions, social media campaigns, and more to boost sales and increased visibility."}
      />
-     <div   className='form-book-bg' >
-     <div className='form-Book' >
-
-     <h1  style={{"color":"#141D29"}} className='md:text-4xl text-2xl font-bold my-6' >Request A Free Quote </h1>
-<div className='flex w-3/5 wrap-flex 	 justify-center'>
-<input type="text" id="input-label" class="md:mr-3 mr-0 my-2 py-6 px-4 block w-full border  border-gray-600  text-md text-black  " placeholder="Name"/>
-<input type="text" id="input-label" class="md:mr-3 mr-0 my-2 py-6 px-4 block w-full border  border-gray-600  text-md text-black  " placeholder="Email"/>
-<input type="text" id="input-label" class="md:mr-3 mr-0 my-2 py-6 px-4 block w-full border  border-gray-600  text-md text-black  " placeholder="Phone"/>
-
-</div>
-     </div>
-     </div>
+ <Quote_Free/>
 
      <Services_List
         title="What To Expect?"
@@ -58,7 +48,6 @@ subtitleText={"Thereadsy Publishers!"}
         iconColor="#22D3EE"
       />
      <OneSideText_Image
-  imageUrl="https://penguinpublishers.com/assets/images/why-info-img.png"
   heading="Why Thereadsy Publishers!"
   paragraphs={[
     "Are you a writer looking to publish your work and share it with the world? Look no further than TheReadsy Publishers' professional self-publishing services!",
@@ -69,7 +58,6 @@ subtitleText={"Thereadsy Publishers!"}
   buttonText="Call Now"
 />
 <OppoOneSideText_Image 
-imageUrl="https://penguinpublishers.com/assets/images/cta-main-img2.png"
 heading="Not Sure Where To Begin?"
 paragraphs={[
   "If you possess a manuscript that you wish to publish, we can assist you in the process. Connect with our self-publishing services team and let us handle the rest!",
@@ -81,7 +69,6 @@ buttonText2="Talk To An Expert"
 
      <TestimonialSlider/>
 <FormOppo
-imageUrl="https://penguinpublishers.com/assets/images/contact-main-book.png"
 heading="Ready To Launch Your Book?"
 paragraphs={[
   "Connect with our self-publishing services team to publish your work.",

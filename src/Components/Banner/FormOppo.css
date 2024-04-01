@@ -28,7 +28,10 @@ width: 24rem;
   }
   
 
-
+  .com-form-inp{
+    margin-bottom: 10px;
+    width: 100%;
+  }
 
 
 .hover-bt-8:hover{

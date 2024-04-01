@@ -25,9 +25,11 @@
         margin-bottom: 10px;
     }
     .pricing-card1{
+        width: 100%;
         text-align: center;
     }
     .pricing-card2{
+        max-width: 60%;
         margin-top: 10px;
     }
   }

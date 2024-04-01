@@ -11,3 +11,15 @@
     justify-content: center;
     flex-direction: column;
 }
+
+
+
+
+@media only screen and (max-width: 767px) {
+    /* Your CSS styles for mobile devices here */
+    .portfolio-banner{
+        height: 60vh;
+
+    }
+  }
+  

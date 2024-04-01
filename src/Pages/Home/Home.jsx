@@ -18,6 +18,8 @@ import TestimonialSlider from '../../Components/Testimonal_Slider/Testimonal_Sli
 import Modal from '../../Components/Modal/Modal';
 import BasicModal from '../../Components/Modal/Modal';
 import axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom';
 
 
@@ -26,7 +28,8 @@ function Home() {
   const [hidden2,setHidden2] = useState(false)
   const [showPopup, setShowPopup] = useState(false);
   const [showOnScroll, setShowOnScroll] = useState(false);
-  
+  const [showRequestForm, setShowRequestForm] = useState(true);
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
@@ -87,12 +90,13 @@ function Home() {
 
   
   return (
-   <>
-   {/* {showRequestForm && (
+   <div     style={{"overflowX" :"hidden"}} >
+          <ToastContainer />
+   {showRequestForm && (
             <div style={{ color: "#F1F1F1" }}>
                 <BasicModal />
             </div>
-        )} */}
+        )}
    <MegaMenu/>
    <Banner
       title="BOOK PUBLISHING"
@@ -102,7 +106,7 @@ function Home() {
     />
    <ImageSlider/>
  
-   {/* <div
+   <div
         onMouseEnter={handleHover}
         onMouseLeave={handleHoverOut}
         onClick={() => setHidden(!hidden)}
@@ -110,7 +114,7 @@ function Home() {
         style={{
           position: "fixed",
           right: "0px",
-          bottom: "700px",
+          bottom: "400px",
           zIndex: "1",
           borderRadius: "10px 0px 0px 10px"
         }}
@@ -131,7 +135,7 @@ function Home() {
         style={{
           position: "fixed",
           right: "0px",
-          bottom: "640px",
+          bottom: "340px",
           zIndex: "1",
           borderRadius: "10px 0px 0px 10px"
         }}
@@ -148,7 +152,7 @@ function Home() {
             </Link>
           </>
         ) : ''}
-      </div> */}
+      </div>
 
 
    <Text_Form/>
@@ -164,7 +168,7 @@ function Home() {
   <Request_Form/>
   </div>
    <Footer/>
-   </>
+   </div>
   );
 }
 

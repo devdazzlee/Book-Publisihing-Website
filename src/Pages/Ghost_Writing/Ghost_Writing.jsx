@@ -10,6 +10,7 @@ import TestimonialSlider from '../../Components/Testimonal_Slider/Testimonal_Sli
 import OneSideText_Image from '../../Components/Banner/OneSideText_Image'
 import OppoOneSideText_Image from '../../Components/Banner/OppoOneSideText_Image'
 import FormOppo from '../../Components/Banner/FormOppo'
+import Quote_Free from '../../Components/Quote_Free/Quote_Free'
 const Ghost_Writing = () => {
 
   const listItems = [
@@ -39,18 +40,7 @@ const Ghost_Writing = () => {
 subtitleText={"Thereadsy Publishers!"}
      paragraph={"Review our services to get an idea of the type and variety of book editing services we offer to authors."}
      />
-     <div   className='form-book-bg' >
-     <div className='form-Book' >
-
-     <h1  style={{"color":"#141D29"}} className='md:text-4xl text-2xl  font-bold my-6' >Request A Free Quote </h1>
-<div className='flex w-3/5 wrap-flex  	 justify-center'>
-<input type="text" id="input-label" class="md:mr-3 mr-0 my-2 py-6 px-4 block w-full border border-gray-600  text-sm  " placeholder="Name"/>
-<input type="text" id="input-label" class="md:mr-3 mr-0 my-2 py-6 px-4 block w-full border border-gray-600  text-sm  " placeholder="Email"/>
-<input type="text" id="input-label" class="md:mr-3 mr-0 my-2 py-6 px-4 block w-full border border-gray-600  text-sm  " placeholder="Phone"/>
-</div>
-<button type="button" className=" text-white bg-cyan-400 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 ">Submit Now</button>
-     </div>
-     </div>
+   <Quote_Free/>
 
      <Services_List
         title="What To Expect?"
@@ -59,7 +49,6 @@ subtitleText={"Thereadsy Publishers!"}
       />
 
      <OneSideText_Image
-  imageUrl="https://penguinpublishers.com/assets/images/why-info-img.png"
   heading="Why Thereadsy Publishers!"
   paragraphs={[
     "We are a well-established and respected publisher with a reputation for producing high-quality books. We have a team of experienced marketing professionals who can create and implement effective online book marketing services & campaigns. Our book marketing firm also provides a wide range of services, including research and analysis, marketing plan development, promotion and publicity, author platform building, sales and distribution, and measurement and optimization while marketing a book online. Choosing TheReadsy Publishers for book marketing services will give you access to the knowledge, resources, and networks that are needed for successful book promotion services.",
@@ -67,7 +56,6 @@ subtitleText={"Thereadsy Publishers!"}
   buttonText="Call Now"
 />
 <OppoOneSideText_Image 
-imageUrl="https://penguinpublishers.com/assets/images/cta-main-img2.png"
 heading="Not Sure Where To Begin?"
 paragraphs={[
   "Don't let your book get lost in the crowd! Partner with TheReadsy Publishers and let us help you promote your book and reach your target audience.",
@@ -79,7 +67,6 @@ buttonText2="Talk To An Expert"
 
      <TestimonialSlider/>
 <FormOppo
-imageUrl="https://penguinpublishers.com/assets/images/contact-main-book.png"
 heading="Ready To Do Justice With Your Book?"
 paragraphs={[
   "Allow our experts to provide you with top-notch book marketing services.",

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 767px) {
+    .li-st{
+        position: relative;
+    }
+    .li-ico{
+        position: absolute;
+        top: 3%;
+    }
+    .li-st-txt{
+        margin-left: 20px;
+        text-align: start;
+    }
+  }
+  

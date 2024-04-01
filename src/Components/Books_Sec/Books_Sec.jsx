@@ -21,9 +21,9 @@ const Books_Sec = ({ title, subTitle, buttonText, images }) => {
         </div>
       </div>
 
-      <div className='md:w-2/3 w-full flex m-auto justify-between flex-wrap my-12'>
+      <div className='md:w-2/3  w-full flex m-auto justify-between flex-wrap my-12'>
         {images.map((image, index) => (
-          <img key={index} src={image} alt={`Book ${index + 1}`} />
+          <img  className='md:w-auto md:h-auto w-full h-96  ' key={index} src={image} alt={`Book ${index + 1}`} />
         ))}
       </div>
 

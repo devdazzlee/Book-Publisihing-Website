@@ -24,12 +24,13 @@ justify-content: center;
     .hover-bt-1 {
         margin-right: 10px;
         margin-bottom: 10px;
+        margin-top: 10px;
         padding: 10px;
     }
     .hover-bt-2{
         margin: auto;
-
-     width: 12rem;
+margin-right: 10px;
+     /* width: 12rem; */
 
     }
   }

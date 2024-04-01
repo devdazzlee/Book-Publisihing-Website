@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import img1 from '../../Images/cta-main-img2.png'
 
 const OppoOneSideText_Image = ({ imageUrl, heading, paragraphs, buttonText , buttonText2 }) => {
   return (
@@ -13,13 +15,17 @@ const OppoOneSideText_Image = ({ imageUrl, heading, paragraphs, buttonText , but
           </p>
         ))}
 
+<Link to={'/Contact'} >
 <button  type="button" class="hover-bt-2 text-white bg-cyan-400	  font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 ">{buttonText}</button>
+</Link>
+<Link to={'/Contact'} >
 <button type="button" class="hover-bt-1 text-white bg-cyan-400	  font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 "> {buttonText2}</button>
+</Link>
 
 
       </div>
       <div className='banner-section-3'>
-        <img src={imageUrl} alt="" />
+        <img src={img1} alt="" />
       </div>
       
     </div>

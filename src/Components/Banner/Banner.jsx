@@ -2,8 +2,8 @@ import './Banner.css'
 import React, { useState, useEffect } from 'react';
 import Form from '../Form/Form';
 import { Link } from 'react-router-dom';
-
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Banner = () => {
   return (
 <>
@@ -28,6 +28,7 @@ Welcome to our team, where we specialize in providing comprehensive ghostwriting
 <div className='banner-section-2'  >
 
 <Form/>
+
 </div>
 
 </div>

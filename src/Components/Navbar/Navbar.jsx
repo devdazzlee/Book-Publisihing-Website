@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import "./Navbar.css"; // CSS for styling
 import img1 from '../../Images/updatedAsset 9.svg'
 import { Link  , useNavigate } from 'react-router-dom';
-import logo from '../../Images/updatedAsset 9.svg'
+import logo from '../../Images/logo black (1).svg'
 
 
 const MegaMenu = () => {

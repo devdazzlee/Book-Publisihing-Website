@@ -3,6 +3,23 @@ import MegaMenu from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
 import Portfolio_Banner from '../../Components/Banner/Portfolio_Banner/Portfolio_Banner'
 import Books_Sec from '../../Components/Books_Sec/Books_Sec'
+import book1 from '../../Images/BookCover1.svg'
+import book2 from '../../Images/BookCover2.svg'
+import book3 from '../../Images/BookCover3.svg'
+import book4 from '../../Images/BookCover4.svg'
+import book5 from '../../Images/BookCover5.svg'
+import book6 from '../../Images/BookCover6.svg'
+import book7 from '../../Images/BookCover7.svg'
+import book8 from '../../Images/BookCover8.svg'
+import book9 from '../../Images/BookCover9.svg'
+import book10 from '../../Images/BookCover10.svg'
+import book11 from '../../Images/BookCover11.svg'
+import book12 from '../../Images/BookCover12.svg'
+import book13 from '../../Images/BookCover13.svg'
+import book14 from '../../Images/BookCover14.svg'
+import book15 from '../../Images/BookCover15.svg'
+import book16 from '../../Images/BookCover16.svg'
+
 
 const Our_Portfolio = () => {
   return (
@@ -14,10 +31,10 @@ const Our_Portfolio = () => {
   subTitle="Book Publishing"
   buttonText="See More"
   images={[
-    "https://www.bookwritingexperts.com/_next/static/media/1.9ecfad9d.svg",
-    "https://www.bookwritingexperts.com/_next/static/media/2.eae693db.svg",
-    "https://www.bookwritingexperts.com/_next/static/media/3.5f249c27.svg",
-    "https://www.bookwritingexperts.com/_next/static/media/4.c5f6f1c9.svg"
+    book1,
+    book2,
+    book3,
+    book4
   ]}
 />
 <Books_Sec
@@ -25,10 +42,10 @@ const Our_Portfolio = () => {
   subTitle="Book Writing"
   buttonText="See More"
   images={[
-    "https://www.bookwritingexperts.com/_next/static/media/1.5f94f3b1.svg",
-    "https://www.bookwritingexperts.com/_next/static/media/2.b368edea.svg",
-    "https://www.bookwritingexperts.com/_next/static/media/3.deac15f0.svg",
-    "https://www.bookwritingexperts.com/_next/static/media/4.8d305651.svg"
+    book5,
+    book6,
+    book7,
+    book8
   ]}
 />
 <Books_Sec
@@ -36,10 +53,10 @@ const Our_Portfolio = () => {
   subTitle="Book Editing"
   buttonText="See More"
   images={[
-    "https://www.bookwritingexperts.com/_next/static/media/1.82595c48.svg",
-    "https://www.bookwritingexperts.com/_next/static/media/2.4f4f9be5.svg",
-    "https://www.bookwritingexperts.com/_next/static/media/3.141e33cc.svg",
-    "https://www.bookwritingexperts.com/_next/static/media/4.d6aa78fc.svg"
+    book9,
+    book10,
+    book11,
+    book12
   ]}
 />
 <Books_Sec
@@ -47,10 +64,10 @@ const Our_Portfolio = () => {
   subTitle="Book Marketing"
   buttonText="See More"
   images={[
-    "https://www.bookwritingexperts.com/_next/static/media/1.9ecfad9d.svg",
-    "https://www.bookwritingexperts.com/_next/static/media/2.1628e089.svg",
-    "https://www.bookwritingexperts.com/_next/static/media/3.38a43e56.svg",
-    "https://www.bookwritingexperts.com/_next/static/media/4.14149188.svg"
+    book13,
+    book14,
+    book15,
+    book16
   ]}
 />
 

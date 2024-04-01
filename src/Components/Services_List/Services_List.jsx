@@ -1,4 +1,6 @@
 import React from 'react';
+import './Services_List.css'
+
 
 const Services_List = ({ title, listItems, iconColor }) => {
   return (
@@ -7,9 +9,9 @@ const Services_List = ({ title, listItems, iconColor }) => {
       <div className='flex flex-wrap text-white w-3/4 mb-4 justify-between'>
         <ul>
           {listItems.map((item, index) => (
-            <li key={index} className='mb-2 text-black text-lg  font-medium md:text-start text-center flex justify-start items-center'>
-              <i style={{ color: iconColor }} className="fas fa-check font-bold mr-2"></i>
-              <div>
+            <li   key={index} className='li-st  mb-2 text-black text-lg font-medium md:text-start text-center flex justify-start items-start'>
+              <i  style={{ color: iconColor}} className="li-ico fas fa-check font-bold md:mr-2 " ></i>
+              <div className='li-st-txt  '>
               {item}
               </div>
             </li>

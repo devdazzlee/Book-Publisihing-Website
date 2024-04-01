@@ -21,6 +21,8 @@ input:focus, textarea {
     width: 100%;
     justify-content: center;
     background-image: url('../../Images/white-paper-texture.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner-bg-img-text{

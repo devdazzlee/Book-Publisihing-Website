@@ -3,6 +3,22 @@ import MegaMenu from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
 import Portfolio_Banner from '../../Components/Banner/Portfolio_Banner/Portfolio_Banner'
 import Books_Sec from '../../Components/Books_Sec/Books_Sec'
+import book1 from '../../Images/BookCover1.svg'
+import book2 from '../../Images/BookCover2.svg'
+import book3 from '../../Images/BookCover3.svg'
+import book4 from '../../Images/BookCover4.svg'
+import book5 from '../../Images/BookCover5.svg'
+import book6 from '../../Images/BookCover6.svg'
+import book7 from '../../Images/BookCover7.svg'
+import book8 from '../../Images/BookCover8.svg'
+import book9 from '../../Images/BookCover9.svg'
+import book10 from '../../Images/BookCover10.svg'
+import book11 from '../../Images/BookCover11.svg'
+import book12 from '../../Images/BookCover12.svg'
+import book13 from '../../Images/BookCover13.svg'
+import book14 from '../../Images/BookCover14.svg'
+import book15 from '../../Images/BookCover15.svg'
+import book16 from '../../Images/BookCover16.svg'
 
 const Inner_Portfolio = () => {
   return (
@@ -12,38 +28,38 @@ const Inner_Portfolio = () => {
  <div className='md:w-2/3 w-full flex m-auto justify-between flex-wrap my-12'>
 
 
- <img src="https://www.bookwritingexperts.com/_next/static/media/1.9ecfad9d.svg" alt="Image 1"/>
-<img src="https://www.bookwritingexperts.com/_next/static/media/2.eae693db.svg" alt="Image 2"/>
-<img src="https://www.bookwritingexperts.com/_next/static/media/3.5f249c27.svg" alt="Image 3"/>
-<img src="https://www.bookwritingexperts.com/_next/static/media/4.c5f6f1c9.svg" alt="Image 4"/>
+ <img    className='md:w-auto md:h-auto w-full h-96' src={book1} alt="Image 1"/>
+<img   className='md:w-auto md:h-auto w-full h-96'  src={book2} alt="Image 2"/>
+<img   className='md:w-auto md:h-auto w-full h-96'  src={book3} alt="Image 3"/>
+<img   className='md:w-auto md:h-auto w-full h-96'  src={book4} alt="Image 4"/>
 
 </div>
 <div className='md:w-2/3 w-full flex m-auto justify-between flex-wrap my-12'>
 
 
-<img src="https://www.bookwritingexperts.com/_next/static/media/1.5f94f3b1.svg" alt="Image 5"/>
-<img src="https://www.bookwritingexperts.com/_next/static/media/2.b368edea.svg" alt="Image 6"/>
-<img src="https://www.bookwritingexperts.com/_next/static/media/3.deac15f0.svg" alt="Image 7"/>
-<img src="https://www.bookwritingexperts.com/_next/static/media/4.8d305651.svg" alt="Image 8"/>
+<img   className='md:w-auto md:h-auto w-full h-96'   src={book5} alt="Image 5"/>
+<img    className='md:w-auto md:h-auto w-full h-96'  src={book6} alt="Image 6"/>
+<img    className='md:w-auto md:h-auto w-full h-96'  src={book7} alt="Image 7"/>
+<img    className='md:w-auto md:h-auto w-full h-96'  src={book8} alt="Image 8"/>
 
 </div>
 
 <div className='md:w-2/3 w-full flex m-auto justify-between flex-wrap my-12'>
 
 
-<img src="https://www.bookwritingexperts.com/_next/static/media/1.82595c48.svg" alt="Image 9"/>
-<img src="https://www.bookwritingexperts.com/_next/static/media/2.4f4f9be5.svg" alt="Image 10"/>
-<img src="https://www.bookwritingexperts.com/_next/static/media/3.141e33cc.svg" alt="Image 11"/>
-<img src="https://www.bookwritingexperts.com/_next/static/media/4.d6aa78fc.svg" alt="Image 12"/>
+<img    className='md:w-auto md:h-auto w-full h-96'  src={book9} alt="Image 9"/>
+<img    className='md:w-auto md:h-auto w-full h-96'  src={book10} alt="Image 10"/>
+<img    className='md:w-auto md:h-auto w-full h-96'  src={book11} alt="Image 11"/>
+<img    className='md:w-auto md:h-auto w-full h-96'  src={book12} alt="Image 12"/>
 
 </div>
 <div className='md:w-2/3 w-full flex m-auto justify-between flex-wrap my-12'>
 
 
-<img src="https://www.bookwritingexperts.com/_next/static/media/1.9ecfad9d.svg" alt="Image 9"/>
-<img src="https://www.bookwritingexperts.com/_next/static/media/2.1628e089.svg" alt="Image 10"/>
-<img src="https://www.bookwritingexperts.com/_next/static/media/3.38a43e56.svg" alt="Image 11"/>
-<img src="https://www.bookwritingexperts.com/_next/static/media/4.14149188.svg" alt="Image 12"/>
+<img    className='md:w-auto md:h-auto w-full h-96'  src={book13} alt="Image 9"/>
+<img    className='md:w-auto md:h-auto w-full h-96'  src={book14} alt="Image 10"/>
+<img    className='md:w-auto md:h-auto w-full h-96'  src={book15} alt="Image 11"/>
+<img    className='md:w-auto md:h-auto w-full h-96'  src={book16} alt="Image 12"/>
 
 </div>
 

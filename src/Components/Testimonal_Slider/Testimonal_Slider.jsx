@@ -45,7 +45,7 @@ const TestimonialSlider = () => {
       <div className="testimonial">
         <h1 style={{ color: "#FF9903" }} className="font-bold text-2xl mb-6">Client Testimonial</h1>
         <h1 style={{ color: "#24303E" }} className="md:text-4xl text-2xl   font-bold mb-6">{testimonials[currentTestimonialIndex].head}</h1>
-        <p className="md:text-2xl text-xl leading-9">{testimonials[currentTestimonialIndex].text}</p>
+        <p className="md:text-2xl text-md md:leading-9 leading-8">{testimonials[currentTestimonialIndex].text}</p>
         <div className="flex items-center my-6">
           <img className="w-24 mr-2" src={testimonials[currentTestimonialIndex].image} alt="Author" />
           <div>

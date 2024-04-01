@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '../Banner/Banner.css';
 import './Form2.css';
-import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
 import axios from 'axios';
 
 const Form2 = () => {
@@ -35,7 +36,7 @@ const Form2 = () => {
     try {
       const response = await axios.post('https://agreeable-apron-bass.cyclic.app/api/messages', formData);
       console.log('API response:', response.data);
-      toast.success('Message sent successfully');
+      toast.success(response.data);
       setFormData({
         name: '',
         email: '',
@@ -50,7 +51,9 @@ const Form2 = () => {
 
   return (
     <>
+      <ToastContainer />
       <div className='form-shadow form2-res rounded-2xl md:mt-0 '>
+
         <h1 style={{ color: headingColor, fontFamily: "sans-serif" }} className=' md:text-3xl text-xl font-bold text-center'>Grab Your Exclusive Discount Today!</h1>
         <p style={{ fontFamily: "sans-serif" }} className='text-center font-bold md:text-md text-sm '>Attention, fellow book enthusiasts! <br />
           Avail of our amazing discount before time runs out</p>
