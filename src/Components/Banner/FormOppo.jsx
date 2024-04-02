@@ -24,7 +24,7 @@ const FormOppo = ({ imageUrl, heading, paragraphs, buttonText, buttonText2, head
     try {
       const response = await axios.post('https://agreeable-apron-bass.cyclic.app/api/messages', formData);
       console.log('API response:', response.data);
-      toast.success('Form submitted successfully!');
+      alert('Form submitted successfully!');
       setFormData({
         name: '',
         email: '',
@@ -32,7 +32,7 @@ const FormOppo = ({ imageUrl, heading, paragraphs, buttonText, buttonText2, head
       });
     } catch (error) {
       console.error('Error submitting form:', error);
-      toast.error('Error submitting form!');
+      alert('Error submitting form!');
     }
   };
 

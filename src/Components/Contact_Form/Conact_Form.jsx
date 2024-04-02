@@ -24,7 +24,7 @@ const Conact_Form = () => {
     try {
       const response = await axios.post('https://agreeable-apron-bass.cyclic.app/api/messages', formData);
       console.log('API response:', response.data);
-      toast.success('Message sent successfully');
+     alert('Message sent successfully');
       setFormData({
         name: '',
         email: '',
@@ -33,7 +33,7 @@ const Conact_Form = () => {
       }); // Reset form fields
     } catch (error) {
       console.error('Error sending data:', error);
-      toast.error('Error sending message');
+      alert('Error sending message');
     }
   };
 

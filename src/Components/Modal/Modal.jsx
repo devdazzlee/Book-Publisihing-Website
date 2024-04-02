@@ -13,10 +13,8 @@ import axios from 'axios';
 const style = {
   position: 'absolute',
   top: '50%',
-  
   left: '50%',
   transform: 'translate(-50%, -50%)',
-
   width: '90%', // Adjust width for mobile devices
   maxWidth: 700, // Maximum width for larger screens
   bgcolor: 'background.paper',
@@ -44,8 +42,7 @@ export default function BasicModal() {
   const handleSubmit = async () => {
     try {
       const response = await axios.post('https://agreeable-apron-bass.cyclic.app/api/messages', formData);
-      console.log('API response:', response.data);
-      toast.success('Form Submited successfully');
+     alert('Form submitted successfully!');
       handleClose()
       setFormData({
         name: '',
@@ -55,8 +52,9 @@ export default function BasicModal() {
       }); // Reset form fields
   
     } catch (error) {
+      handleClose()
       console.error('Error sending data:', error);
-      toast.error('Error sending message');
+      alert('Error sending message');
     }
   };
   useEffect(() => {

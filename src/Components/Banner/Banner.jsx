@@ -2,9 +2,9 @@ import './Banner.css'
 import React, { useState, useEffect } from 'react';
 import Form from '../Form/Form';
 import { Link } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-const Banner = () => {
+
+
+const Banner34 = () => {
   return (
 <>
 <div style={{"padding" : "120px 0px"}}  className='banner-bg '  >
@@ -36,4 +36,4 @@ Welcome to our team, where we specialize in providing comprehensive ghostwriting
   )
 }
 
-export default Banner
+export default Banner34

@@ -21,6 +21,7 @@ import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom';
+import Banner34 from '../../Components/Banner/Banner';
 
 
 function Home() {
@@ -90,19 +91,11 @@ function Home() {
 
   
   return (
-   <div     style={{"overflowX" :"hidden"}} >
-          <ToastContainer />
-   {showRequestForm && (
-            <div style={{ color: "#F1F1F1" }}>
-                <BasicModal />
-            </div>
-        )}
+   <>
+  
    <MegaMenu/>
-   <Banner
-      title="BOOK PUBLISHING"
-      description="Your manuscript is ready but feeling a bit lost about how to publish it. No worries! At The Readsy, we've got your back. We promise to get your book the attention it deserves from the right readers. Our team of professionals is here to publish your book quickly and hassle-free."
-      buttonText1="Publish Your Work"
-      buttonText2="Talk To An Expert"
+   <Banner34
+  
     />
    <ImageSlider/>
  
@@ -153,7 +146,11 @@ function Home() {
           </>
         ) : ''}
       </div>
-
+ {showRequestForm && (
+            <div style={{ color: "red" }}>
+                <BasicModal />
+            </div>
+        )}
 
    <Text_Form/>
    <Head_Sec/>
@@ -168,7 +165,7 @@ function Home() {
   <Request_Form/>
   </div>
    <Footer/>
-   </div>
+   </>
   );
 }
 

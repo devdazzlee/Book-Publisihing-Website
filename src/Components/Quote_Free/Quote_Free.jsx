@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { toast, ToastContainer } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Quote_Free = () => {
@@ -9,6 +9,8 @@ const Quote_Free = () => {
     email: '',
     number: ''
   });
+
+  const [showToast, setShowToast] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -23,8 +25,7 @@ const Quote_Free = () => {
       // Send formData to the API
       const response = await axios.post('https://agreeable-apron-bass.cyclic.app/api/messages', formData);
       console.log('API response:', response.data);
-      // Show success toast notification
-      toast.success('Form submitted successfully!');
+      alert('Form submitted successfully!');
       // Reset form fields
       setFormData({
         name: '',
@@ -34,7 +35,7 @@ const Quote_Free = () => {
     } catch (error) {
       console.error('Error sending data:', error);
       // Show error toast notification
-      toast.error('Error submitting form!');
+      alert('Error sending message');
     }
   };
 
@@ -82,7 +83,7 @@ const Quote_Free = () => {
           </button>
         </div>
       </div>
-      <ToastContainer />
+
     </>
   )
 }
