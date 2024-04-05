@@ -11,6 +11,8 @@ import Book_Editing from './Pages/Book_Editing/Book_Editing';
 import Ghost_Writing from './Pages/Ghost_Writing/Ghost_Writing';
 import Book_Cover_Design from './Pages/BookCover_Design/BookCover_Design';
 import ScrollToTop from './Components/Scroll_Top/ScrollTop';
+import Privacy_Policy from './Pages/Privacy_Policy/Privacy_Policy';
+import Terms_Condition from './Pages/Terms&Condition/Terms&Condition';
 const App = () => {
   return (
 
@@ -115,7 +117,7 @@ const App = () => {
       element={
         <>
         <ScrollToTop/>
-          <Book_Editing />
+          <Terms_Condition />
         </>
       }
     />
@@ -138,6 +140,28 @@ const App = () => {
         </>
       }
     />
+
+<Route
+      path={"*"}
+      element={
+        <>
+        <ScrollToTop/>
+          <Home />
+        </>
+      }
+    />
+<Route
+      path={"/Privacy-Policy"}
+      element={
+        <>
+        <ScrollToTop/>
+          <Privacy_Policy />
+        </>
+      }
+    />
+
+
+
 
 
 </Routes>

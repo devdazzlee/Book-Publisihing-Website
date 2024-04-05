@@ -77,7 +77,14 @@ function Footer() {
 
 <Link to="/Contact">Conatact Us</Link>
 </li>
+<li   className=' ' >
 
+<Link to="/Privacy-Policy">Privacy Policy</Link>
+</li>
+<li   className=' ' >
+
+<Link to="/terms-conditions">Terms & Condition</Link>
+</li>
 
 
             
@@ -90,12 +97,12 @@ function Footer() {
              
              <li  className='    '  ><i class="fa-solid fa-location-dot mr-2 "></i> Our Address</li>
             <li  className='    '  >5900 Balcones Drive STE 100</li>
-            <li  className='    '  >  <i class="fa-solid fa-phone-volume mr-2 py-4 "></i> +1 737-222-7373</li>
+            <li  className='    '  >  <i class="fa-solid fa-phone-volume mr-2 py-2 "></i> +1 737-222-7373</li>
 
 
 
 <li  className='    '  ><i class="fa fa-envelope mr-2  " aria-hidden="true"></i> contact@thereadsy.com </li>
-          
+
             </ul>
           </div>
           
