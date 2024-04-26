@@ -99,7 +99,7 @@ export default function BasicModal() {
           </IconButton>
          <div className='flex'  >
          <div className='md:w-1/2	 md:block  hidden'  >
-            <img   className='md:block  hidden' src={img1} alt="" />
+            <img   className='md:block  hidden' src={img1} alt="The Readsy Contact Information" />
           </div>
           <div className='md:w-1/2 w-full	' >
 

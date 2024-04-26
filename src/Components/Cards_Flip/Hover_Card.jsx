@@ -12,7 +12,7 @@ const Card = ({ image, frontHeading, backHeading, backParagraph }) => {
     <div  style={{"margin" :"10px"}} className={`card ${flipped ? 'flipped' : ''} md:mb-0 mb-3 md:m-0  m-auto `} onClick={handleFlip}>
       <div className="card-inner">
         <div className="card-front">
-          <img src={image} alt="Card Front" />
+          <img src={image} alt="The Readsy Author Services" />
            <h2  className='text-xl' >{frontHeading}</h2>
         </div>
         <div className="card-back">

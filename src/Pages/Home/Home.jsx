@@ -22,6 +22,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom';
 import Banner34 from '../../Components/Banner/Banner';
+import { Helmet } from 'react-helmet';
 
 
 function Home() {
@@ -30,6 +31,16 @@ function Home() {
   const [showPopup, setShowPopup] = useState(false);
   const [showOnScroll, setShowOnScroll] = useState(false);
   const [showRequestForm, setShowRequestForm] = useState(true);
+
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6622d55ea0c6737bd12e5034/1hrs12utm';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -84,18 +95,16 @@ function Home() {
       const handleHoverOut2 = () => {
         setHidden2(false);
       };
-  
 
-
-  
-
-  
   return (
    <>
-  
+        <Helmet>
+        <title>Professional Book Writing & Publishing Services | Thereadsy</title>
+        <meta name="description" content="Professional book writing and publishing services to help authors bring their stories to life. Contact us for expert assistance with book writing, editing, publishing, and marketing." />
+      </Helmet>
    <MegaMenu/>
    <Banner34
-  
+
     />
    <ImageSlider/>
  
@@ -116,7 +125,7 @@ function Home() {
         {hidden ? (
           <>
             <hr style={{ width: "1px", height: "20px", margin: "0 10px", border: "none", backgroundColor: "black" }} />
-            <a className="font-bold" href="tel:+17372227373">+1 737-222-7373</a>
+            <a className="font-bold" href="tel:+17372227373"   alt="Thereadsy Phone Number">+1 737-222-7373</a>
           </>
         ) : ''}
       </div>
@@ -138,7 +147,7 @@ function Home() {
           <>
             <hr style={{ width: "1px", height: "20px", margin: "0 10px", border: "none", backgroundColor: "black" }} />
               <Link    to={'/Contact'} > 
-            <a className="font-bold">
+            <a className="font-bold" alt="Thereadsy Contact - The Readsy">
               
             Let's Discuss
             </a>

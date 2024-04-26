@@ -141,4 +141,6 @@ padding: 10px 0px;
       display: none;
     }
   }
-  
+  .listitemcolorhover:hover{
+    color: #22D3EE;
+  }

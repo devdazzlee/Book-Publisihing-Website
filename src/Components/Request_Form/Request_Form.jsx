@@ -20,7 +20,7 @@ const Request_Form = () => {
 </div>
 <div className='text-center'>
     <h1 className='md:text-2xl  text-xl md:my-0 my-2   font-bold' >For project inquiries only:</h1>
-    <h1><i class="fa fa-envelope mt-4" aria-hidden="true"></i>contact@thereadsy.com.com</h1>
+    <h1><i class="fa fa-envelope mt-4" aria-hidden="true"></i>contact@thereadsy.com</h1>
 </div>
 
 <div className='text-center'>

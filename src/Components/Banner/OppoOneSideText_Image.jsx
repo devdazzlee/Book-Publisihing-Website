@@ -25,7 +25,7 @@ const OppoOneSideText_Image = ({ imageUrl, heading, paragraphs, buttonText , but
 
       </div>
       <div className='banner-section-3'>
-        <img src={img1} alt="" />
+        <img src={img1} alt="Professional Editing Services - TheReadsy - TheReadsy " />
       </div>
       
     </div>

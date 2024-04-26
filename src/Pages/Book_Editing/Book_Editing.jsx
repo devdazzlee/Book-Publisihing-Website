@@ -12,6 +12,7 @@ import OppoOneSideText_Image from '../../Components/Banner/OppoOneSideText_Image
 import FormOppo from '../../Components/Banner/FormOppo'
 import Banner from '../../Components/Banner/Banner'
 import Quote_Free from '../../Components/Quote_Free/Quote_Free'
+import { Helmet } from 'react-helmet'
 const Book_Editing = () => {
 
   const listItems = [
@@ -23,6 +24,11 @@ const Book_Editing = () => {
   ];
   return (
      <>
+      <Helmet>
+        <title>Book Editing Services - The Readsy</title>
+        <meta name="description" content="Elevate your writing with professional book editing services from The Readsy. Our experienced editors will refine your manuscript to perfection, ensuring it's ready for publication." />
+        <meta name="keywords" content="book editing services, thereadsy, manuscript editing, professional editing, book proofreading" />
+      </Helmet>
            <MegaMenu/>
            <Banner2
       title="Revitalize Your Writing"

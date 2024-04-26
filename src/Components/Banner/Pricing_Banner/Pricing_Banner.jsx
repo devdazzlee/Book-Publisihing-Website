@@ -25,7 +25,7 @@ const Pricing_Banner = () => {
         </Link>
 </div>
 <div className='top-compe md:my-12 my-4' >
-<img src={logos} alt="" />
+<img src={logos}alt="Professional Editing Services - The Readsy" />
 
 </div>
 

@@ -6,7 +6,7 @@ const OneSideText_Image = ({ imageUrl, heading, paragraphs, buttonText }) => {
   return (
     <div className='banner-bg-img-text'>
       <div className='banner-section-3'>
-        <img src={img} alt="" />
+        <img src={img}  alt="Book Marketing Strategies - The Readsy" />
       </div>
       <div className='banner-section-1'>
         <h1 className='md:text-5xl text-2xl font-medium text-cyan-400'>

@@ -12,6 +12,7 @@ import OppoOneSideText_Image from '../../Components/Banner/OppoOneSideText_Image
 import FormOppo from '../../Components/Banner/FormOppo'
 import Services_Card4 from '../../Components/Services_Card/Service_Card4'
 import Quote_Free from '../../Components/Quote_Free/Quote_Free'
+import { Helmet } from 'react-helmet'
 const Book_Cover_Design = () => {
 
   const listItems = [
@@ -25,6 +26,11 @@ const Book_Cover_Design = () => {
   ];
   return (
      <>
+           <Helmet>
+        <title>Book Cover Design - The Readsy</title>
+        <meta name="description" content="Elevate your book's visual appeal with a stunning cover design. Our book cover design agency offers professional book cover design services for authors worldwide." />
+        <meta name="keywords" content="book cover design, thereadsy, book publishing, book marketing, self-publishing" />
+      </Helmet>
            <MegaMenu/>
            <Banner2 
                title="Book Cover Design"

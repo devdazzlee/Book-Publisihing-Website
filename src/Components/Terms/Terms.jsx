@@ -49,14 +49,14 @@ const Terms = () => {
 
             <p className="text-base">
               It is important that you carefully read and understand the refund policies in order to have
-              full knowledge of the privileges and limitations governed by the Urban Book Publishers
+              full knowledge of the privileges and limitations governed by the The Readsy Publishers
               Policies. We offer refunds only in special cases and specified conditions, detailed as
               under:<br/>
               <br/>
-              Urban Book Publishers offers a 100% Refund on all its services, however, it is not an
+              The Readsy Publishers offers a 100% Refund on all its services, however, it is not an
               unconditional 100% refund and certain conditions still apply.<br/>
               <br/>
-              Urban Book Publishers Refund Policy will be Void if;<br/>
+              The Readsy Publishers Refund Policy will be Void if;<br/>
               <br/>
               You have chosen a special or a custom package.<br/>
               You have demanded revisions beyond the initial concepts<br/>

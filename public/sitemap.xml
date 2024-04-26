@@ -1,0 +1,50 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://thereadsy.com</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://thereadsy.com/Contact</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thereadsy.com/Our-Portfolio</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thereadsy.com/Pricing</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thereadsy.com/Book-Publising</loc>
+    <priority>0.7</priority>
+    <lastmod>2024-04-26</lastmod>  </url>
+  <url>
+    <loc>https://thereadsy.com/Book-Marketing</loc>
+    <priority>0.7</priority>
+    <lastmod>2024-04-26</lastmod>  </url>
+  <url>
+    <loc>https://thereadsy.com/Book_Editing</loc>
+    <priority>0.7</priority>
+    <lastmod>2024-04-26</lastmod>  </url>
+  <url>
+    <loc>https://thereadsy.com/Ghost_Writing</loc>
+    <priority>0.7</priority>
+    <lastmod>2024-04-26</lastmod>  </url>
+  <url>
+    <loc>https://thereadsy.com/Book-Cover-Design</loc>
+    <priority>0.7</priority>
+    <lastmod>2024-04-26</lastmod>  </url>
+
+  <url>
+    <loc>https://thereadsy.com/terms-conditions</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://thereadsy.com/Privacy-Policy</loc>
+    <priority>0.3</priority>  
+  </url>
+
+</urlset>

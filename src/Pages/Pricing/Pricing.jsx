@@ -6,10 +6,24 @@ import Pricing_Card from '../../Components/Pricing_Card/Pricing_Card'
 import Pricing_Card_Sec from '../../Components/Pricing_Card/Pricing_Card_Sec'
 import Request_Form from '../../Components/Request_Form/Request_Form'
 import Head_Para from '../../Components/Head_Para/Head_Para'
+import { Helmet } from 'react-helmet'
 
 const Pricing = () => {
   return (
     <>
+        <Helmet>
+        <title>Book Writing & Publishing Services - Pricing | BookWritingExperts</title>
+        <meta name="description" content="Check out our affordable pricing for book writing, editing, publishing, marketing, and more. Get a quote for your project now!" />
+        <meta property="og:title" content="Book Writing & Publishing Services - Pricing | BookWritingExperts" />
+        <meta property="og:description" content="Check out our affordable pricing for book writing, editing, publishing, marketing, and more. Get a quote for your project now!" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://thereadsy.com/Pricing" />
+        <meta property="og:image" content="https://thereadsy.com/static/media/logo%20black%20(1).bec0b67ea291331312b32a2301ee3e36.svg" />
+        <meta name="twitter:title" content="Book Writing & Publishing Services - Pricing | BookWritingExperts" />
+        <meta name="twitter:description" content="Check out our affordable pricing for book writing, editing, publishing, marketing, and more. Get a quote for your project now!" />
+      </Helmet>
+
+
       <MegaMenu/>
     <Pricing_Banner/>
 {/* <Pricing_Card/> */}

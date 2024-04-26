@@ -13,7 +13,7 @@ const Banner34 = () => {
 Ready to turn your story  <span style={{"color":"#0A2840"}}>  <br /> into a  Masterpiece ?</span>
 </h1>
 <p  className='my-4 md:mr-12 mr-0' >
-Welcome to our team, where we specialize in providing comprehensive ghostwriting, editing, and publishing services meticulously crafted to suit your unique requirements. Whether you're an aspiring author with a captivating story waiting to be told, a seasoned writer seeking refinement for your manuscript, or someone with a brilliant idea but unsure of where to begin, we're here to help you every step of the way.
+Welcome to our The Readsy, where we specialize in providing comprehensive ghostwriting, editing, and publishing services meticulously crafted to suit your unique requirements. Whether you're an aspiring author with a captivating story waiting to be told, a seasoned writer seeking refinement for your manuscript, or someone with a brilliant idea but unsure of where to begin, we're here to help you every step of the way.
 </p>
 <div className='' >
 <Link to={'/Contact'} >

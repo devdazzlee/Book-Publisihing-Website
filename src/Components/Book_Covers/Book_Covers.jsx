@@ -21,15 +21,15 @@ const Book_Covers = () => {
 <div className='flex flex-col items-center' > 
 
 <div  className='flex  flex-wrap  justify-center m-auto ' >
-<img   style={{"height" :"35rem"}} className='book-cover-card md:w-96  mr-2 w-72 md:mb-2 mb-12 		'  src={img1} alt="" />
-<img   style={{"height" :"35rem"}} className='book-cover-card md:w-96  mr-2 w-72 md:mb-2 mb-12 		'src={img2} alt="" />
-<img  style={{"height" :"35rem"}} className='book-cover-card md:w-96  mr-2 w-72 md:mb-2 mb-12 		'  src={img3} alt="" />
+<img   style={{"height" :"35rem"}} className='book-cover-card md:w-96  mr-2 w-72 md:mb-2 mb-12 		'  src={img1} alt="Professional Editing Services - The Readsy" />
+<img   style={{"height" :"35rem"}} className='book-cover-card md:w-96  mr-2 w-72 md:mb-2 mb-12 		'src={img2} alt="Expert Ghostwriting Services - The Readsy"/>
+<img  style={{"height" :"35rem"}} className='book-cover-card md:w-96  mr-2 w-72 md:mb-2 mb-12 		'  src={img3} alt="Expert Ghostwriting Services - The Readsy" />
 </div>
 
 <div   className='flex  flex-wrap justify-center'    >
-<img    style={{"height" :"35rem"}} className='book-cover-card md:w-96  mr-2 w-72 md:mb-2 mb-12 		'  src={img4} alt="" />
-<img    style={{"height" :"35rem"}} className='book-cover-card md:w-96  mr-2 w-72 md:mb-2 mb-12 		' src={img5} alt="" />
-<img   style={{"height" :"35rem"}} className='book-cover-card md:w-96  mr-2 w-72 md:mb-2 mb-12 		' src={img6} alt="" />
+<img    style={{"height" :"35rem"}} className='book-cover-card md:w-96  mr-2 w-72 md:mb-2 mb-12 		'  src={img4} alt="Author Support Services - The Readsy" />
+<img    style={{"height" :"35rem"}} className='book-cover-card md:w-96  mr-2 w-72 md:mb-2 mb-12 		' src={img5} alt="Book Promotion Services - The Readsy" />
+<img   style={{"height" :"35rem"}} className='book-cover-card md:w-96  mr-2 w-72 md:mb-2 mb-12 		' src={img6}  alt="Writer Assistance - The Readsy" />
 </div>
 
 

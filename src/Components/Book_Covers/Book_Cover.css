@@ -1,4 +1,7 @@
+.book-cover-card:hover{
+  transform: scale(0.9); /* You can adjust the scaling factor as per your preference */
 
+      }
 
 /* Media query for laptops */
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {

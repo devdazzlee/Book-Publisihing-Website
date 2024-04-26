@@ -19,11 +19,17 @@ import book13 from '../../Images/BookCover13.svg'
 import book14 from '../../Images/BookCover14.svg'
 import book15 from '../../Images/BookCover15.svg'
 import book16 from '../../Images/BookCover16.svg'
+import { Helmet } from 'react-helmet'
 
 
 const Our_Portfolio = () => {
   return (
  <>
+       <Helmet>
+        <title>Our Portfolio - Book Publishing, Writing, Editing, Marketing | Thereadsy</title>
+        <meta name="description" content="Explore our stunning portfolio of book publishing, writing, editing, and marketing services at Thereadsy. We provide top-notch services to authors and writers, helping them achieve their literary goals." />
+      </Helmet>
+
   <MegaMenu/>
  <Portfolio_Banner/>
  <Books_Sec

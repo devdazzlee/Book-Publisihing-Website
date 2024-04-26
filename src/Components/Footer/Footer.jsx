@@ -11,20 +11,20 @@ function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
           <div className="mt-4 sm:col-span-1">
             <div to={'/'}>
-              <img    width={"150px"} src={img1} alt="WorldTour Logo" />
+              <img    width={"150px"} src={img1} alt="The Readsy Publisher Services"   />
             </div>
             <p className="text-sm py-4 sm:py-6 text-white  ">
             Your trusted partner for comprehensive book publishing solutions, ensuring every aspect of your literary journey is expertly handled.
             </p>
             <div className="flex gap-4 mt-2">
-              <a href="https://www.facebook.com/thereadsy" >
+              <a    className='listitemcolorhover'  href="https://www.facebook.com/thereadsy"    alt="Thereadsy Facebook" >
               <i class="fa-brands fa-2x  fa-facebook-f"></i>
               </a>
-              <a href="https://www.instagram.com/thereadsy/" >
+              <a    className='listitemcolorhover'  href="https://www.instagram.com/thereadsy/" alt="Thereadsy Instagram" >
               <i class="fa-brands fa-2x  fa-instagram"></i>
 
               </a>
-              <a href="https://www.linkedin.com/company/thereadsy" >
+              <a   className='listitemcolorhover'   href="https://www.linkedin.com/company/thereadsy" alt="Thereadsy Linkedin" >
               <i class="fab fa-2x  fa-linkedin-in"></i>
                 {/* <FontAwesomeIcon icon={fadivedin}   style={{"color" : "#FF9903"}} size="2x" /> */}
               </a>
@@ -34,23 +34,23 @@ function Footer() {
           <div className="mt-8">
             <h2   className="text-2xl text-white mb-2 font-bold">Services</h2>
             <hr />
-            <ul className="mt-4 space-y-2">
+            <ul className="mt-4 space-y-2 listitemcolorhover">
               <li   className='text-white   ' >
                 <Link to="/Book_Marketing">Book Marketing</Link>
               </li>
-              <li   className='text-white   ' >
+              <li   className='text-white  listitemcolorhover  ' >
                 <Link to="/Book-Publising">Book Publising</Link>
               </li>
-              <li   className='text-white   ' >
+              <li   className='text-white  listitemcolorhover  ' >
                 <Link to="/Book_Editing">Book Editing</Link>
               </li>
-              <li   className='text-white   ' >
+              <li   className='text-white  listitemcolorhover  ' >
                 <Link to="/Ghost_Writing">Ghost Writing</Link>
               </li>
-              <li   className='text-white   ' >
+              <li   className='text-white  listitemcolorhover  ' >
                 <Link to="/Book-Cover-Design">Book Cover Design</Link>
               </li>
-              <li   className='text-white   ' >
+              <li   className='text-white   listitemcolorhover ' >
                 <Link to="/Book-Publising">Business Book Writing</Link>
               </li>
             </ul>
@@ -60,28 +60,28 @@ function Footer() {
             <h2   className="text-white text-2xl   mb-2">Quick Links</h2>
             <hr />
             <ul className="mt-4 space-y-2">
-            <li   className='text-white  ' >
+            <li   className='text-white listitemcolorhover ' >
             <Link to="/">Home</Link>
               </li>
               {/* <li   className='text-white' >
                 <Link to="/about">About Us</Link>
               </li> */}
-              <li   className='text-white  ' >
+              <li   className='text-white listitemcolorhover ' >
                 <Link to="/Pricing">Pricing</Link>
               </li>
-<li    className=' '  >
+<li    className='listitemcolorhover'  >
 <Link to="/Our-Portfolio">Potfolio</Link>
 
 </li>
-<li   className=' ' >
+<li   className='listitemcolorhover' >
 
 <Link to="/Contact">Conatact Us</Link>
 </li>
-<li   className=' ' >
+<li   className='listitemcolorhover' >
 
 <Link to="/Privacy-Policy">Privacy Policy</Link>
 </li>
-<li   className=' ' >
+<li   className='listitemcolorhover' >
 
 <Link to="/terms-conditions">Terms & Condition</Link>
 </li>

@@ -11,6 +11,7 @@ import OneSideText_Image from '../../Components/Banner/OneSideText_Image'
 import OppoOneSideText_Image from '../../Components/Banner/OppoOneSideText_Image'
 import FormOppo from '../../Components/Banner/FormOppo'
 import Quote_Free from '../../Components/Quote_Free/Quote_Free'
+import { Helmet } from 'react-helmet'
 const Ghost_Writing = () => {
 
   const listItems = [
@@ -24,6 +25,12 @@ const Ghost_Writing = () => {
   ];
   return (
      <>
+           <Helmet>
+        <title>Expert Ghostwriting Services - The Readsy</title>
+        <meta name="description" content="Let our experts fire the imagination of your readers with their killer writing techniques. Your story needs to be heard, and Book Writing Experts make sure your story keeps the readers hooked onto it until the end." />
+        <meta name="keywords" content="ghostwriting, thereadsy, book writing, book publishing, self-publishing" />
+      </Helmet>
+
            <MegaMenu/>
            <Banner2 
                title="Expert Ghostwriting "

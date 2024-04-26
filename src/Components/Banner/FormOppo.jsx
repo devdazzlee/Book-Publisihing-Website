@@ -87,7 +87,7 @@ const FormOppo = ({ imageUrl, heading, paragraphs, buttonText, buttonText2, head
           </div>
         </div>
         <div className='banner-section-3'>
-          <img src={img1} alt="" />
+          <img src={img1} alt="Book Publishing Services - The Readsy" />
         </div>
       </div>
       <ToastContainer />

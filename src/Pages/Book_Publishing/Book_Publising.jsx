@@ -12,6 +12,7 @@ import OppoOneSideText_Image from '../../Components/Banner/OppoOneSideText_Image
 import FormOppo from '../../Components/Banner/FormOppo'
 import Services_Card3 from '../../Components/Services_Card/Service_Card3'
 import Quote_Free from '../../Components/Quote_Free/Quote_Free'
+import { Helmet } from 'react-helmet'
 const Book_Publising = () => {
 
   const listItems = [
@@ -25,6 +26,12 @@ const Book_Publising = () => {
   ];
   return (
      <>
+     <Helmet>
+        <title>Self-Publishing Services - The Readsy</title>
+        <meta name="description" content="Empower yourself with our self-publishing services at The Readsy. From editing to cover design and marketing, we provide end-to-end support to authors, helping them bring their manuscripts to life." />
+        <meta name="keywords" content="self-publishing services, book publishing services, thereadsy, manuscript editing, cover design, book marketing" />
+      </Helmet>
+
            <MegaMenu/>
            <Banner2 
                title="Book Publising"

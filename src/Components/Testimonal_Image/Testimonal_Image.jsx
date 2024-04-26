@@ -10,25 +10,25 @@ const TestimonialImage = () => {
       <div className='flex flex-wrap justify-center items-center w-full max-w-screen-lg'>
         <div className='w-full md:w-1/2 lg:w-1/4 px-4 mb-8 md:mb-0'>
           <div className='flex flex-col items-center'>
-            <img src={img1} alt="" />
+            <img src={img1} alt="100% Customer Satisfaction - Thereadsy" />
             <h4 className='text-white'>100% Customer Satisfaction</h4>
           </div>
         </div>
         <div className='w-full md:w-1/2 lg:w-1/4 px-4 mb-8 md:mb-0'>
           <div className='flex flex-col items-center'>
-            <img src={img2} alt="" />
+            <img src={img2} alt="2500+ Customers - Thereadsy" />
             <h4 className='text-white'>2500+ Customers</h4>
           </div>
         </div>
         <div className='w-full md:w-1/2 lg:w-1/4 px-4 mb-8 md:mb-0'>
           <div className='flex flex-col items-center'>
-            <img src={img3} alt="" />
+            <img src={img3} alt="Flexible Plans - Thereadsy" />
             <h4 className='text-white'>Flexible Plans</h4>
           </div>
         </div>
         <div className='w-full md:w-1/2 lg:w-1/4 px-4 mb-8 md:mb-0'>
           <div className='flex flex-col items-center'>
-            <img src={img4} alt="" />
+            <img src={img4} alt="All Royalties Belong To You - Thereadsy" />
             <h4 className='text-white'>All Royalties Belong To You</h4>
           </div>
         </div>

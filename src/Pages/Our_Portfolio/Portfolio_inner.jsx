@@ -19,47 +19,53 @@ import book13 from '../../Images/BookCover13.svg'
 import book14 from '../../Images/BookCover14.svg'
 import book15 from '../../Images/BookCover15.svg'
 import book16 from '../../Images/BookCover16.svg'
+import { Helmet } from 'react-helmet'
 
 const Inner_Portfolio = () => {
   return (
  <>
+ <Helmet>
+        <title>Inner Portfolio | Thereadsy</title>
+        <meta name="description" content="Explore our portfolio of books and projects at Thereadsy." />
+        <meta property="og:title" content="Book Writing & Publishing Services - Pricing | BookWritingExperts" />
+      </Helmet>
   <MegaMenu/>
  <Portfolio_Banner/>
  <div className='md:w-2/3 w-full flex m-auto justify-between flex-wrap my-12'>
 
 
- <img    className='md:w-auto md:h-auto w-full h-96' src={book1} alt="Image 1"/>
-<img   className='md:w-auto md:h-auto w-full h-96'  src={book2} alt="Image 2"/>
-<img   className='md:w-auto md:h-auto w-full h-96'  src={book3} alt="Image 3"/>
-<img   className='md:w-auto md:h-auto w-full h-96'  src={book4} alt="Image 4"/>
+ <img className='md:w-auto md:h-auto w-full h-96' src={book1} alt="The Readsy Book Cover 1" />
+        <img className='md:w-auto md:h-auto w-full h-96' src={book2} alt="The Readsy Book Cover 2" />
+        <img className='md:w-auto md:h-auto w-full h-96' src={book3} alt="The Readsy Book Cover 3" />
+        <img className='md:w-auto md:h-auto w-full h-96' src={book4} alt="The Readsy Book Cover 4" />
 
 </div>
 <div className='md:w-2/3 w-full flex m-auto justify-between flex-wrap my-12'>
 
 
-<img   className='md:w-auto md:h-auto w-full h-96'   src={book5} alt="Image 5"/>
-<img    className='md:w-auto md:h-auto w-full h-96'  src={book6} alt="Image 6"/>
-<img    className='md:w-auto md:h-auto w-full h-96'  src={book7} alt="Image 7"/>
-<img    className='md:w-auto md:h-auto w-full h-96'  src={book8} alt="Image 8"/>
+<img className='md:w-auto md:h-auto w-full h-96' src={book5} alt="The Readsy Book Cover 5" />
+        <img className='md:w-auto md:h-auto w-full h-96' src={book6} alt="The Readsy Book Cover 6" />
+        <img className='md:w-auto md:h-auto w-full h-96' src={book7} alt="The Readsy Book Cover 7" />
+        <img className='md:w-auto md:h-auto w-full h-96' src={book8} alt="The Readsy Book Cover 8" />
 
 </div>
 
 <div className='md:w-2/3 w-full flex m-auto justify-between flex-wrap my-12'>
 
 
-<img    className='md:w-auto md:h-auto w-full h-96'  src={book9} alt="Image 9"/>
-<img    className='md:w-auto md:h-auto w-full h-96'  src={book10} alt="Image 10"/>
-<img    className='md:w-auto md:h-auto w-full h-96'  src={book11} alt="Image 11"/>
-<img    className='md:w-auto md:h-auto w-full h-96'  src={book12} alt="Image 12"/>
+<img className='md:w-auto md:h-auto w-full h-96' src={book9} alt="The Readsy Book Cover 9" />
+        <img className='md:w-auto md:h-auto w-full h-96' src={book10} alt="The Readsy Book Cover 10" />
+        <img className='md:w-auto md:h-auto w-full h-96' src={book11} alt="The Readsy Book Cover 11" />
+        <img className='md:w-auto md:h-auto w-full h-96' src={book12} alt="The Readsy Book Cover 12" />
 
 </div>
 <div className='md:w-2/3 w-full flex m-auto justify-between flex-wrap my-12'>
 
 
-<img    className='md:w-auto md:h-auto w-full h-96'  src={book13} alt="Image 9"/>
-<img    className='md:w-auto md:h-auto w-full h-96'  src={book14} alt="Image 10"/>
-<img    className='md:w-auto md:h-auto w-full h-96'  src={book15} alt="Image 11"/>
-<img    className='md:w-auto md:h-auto w-full h-96'  src={book16} alt="Image 12"/>
+<img className='md:w-auto md:h-auto w-full h-96' src={book13} alt="The Readsy Book Cover 13" />
+        <img className='md:w-auto md:h-auto w-full h-96' src={book14} alt="The Readsy Book Cover 14" />
+        <img className='md:w-auto md:h-auto w-full h-96' src={book15} alt="The Readsy Book Cover 15" />
+        <img className='md:w-auto md:h-auto w-full h-96' src={book16} alt="The Readsy Book Cover 16" />
 
 </div>
 

@@ -38,7 +38,7 @@ const MegaMenu = () => {
      <Link  to={"/"} >
   
   
-     <img  className='h-16 md:mx-12 mx-4'  src={logo} alt="" />
+     <img  className='h-16 md:mx-12 mx-4'  src={logo} alt="The Readsy Testimonials" />
   
         
         
@@ -51,14 +51,14 @@ const MegaMenu = () => {
           <ul className={`navbar-links ${isMobileMenuOpen ? 'mobile-menu-open' : ''}`}>
   
           <Link itemprop="availability" href="https://schema.org/InStock"
-                className="block py-2 pl-3 pr-4 text-white rounded  md:p-0   "
+                className="listitemcolorhover  block py-2 pl-3 pr-4 text-white rounded  md:p-0   "
                 to={'/'}
               >
                 Home
               </Link>
             <li className="with-dropdown">
             <Link itemprop="availability" href="https://schema.org/InStock"
-                className="block py-2 pl-3 pr-4 text-white rounded  md:p-0   "
+                className="listitemcolorhover block py-2 pl-3 pr-4 text-white rounded  md:p-0   "
                 to={'/'}
               >
                 Services  <i class="fa fa-caret-down" aria-hidden="true"></i>
@@ -66,7 +66,7 @@ const MegaMenu = () => {
               
               <ul className="dropdown">
   
-  <li  className="nested-dropdown-container"  >
+  <li  className="nested-dropdown-container listitemcolorhover"  >
         
   <Link style={{"color" :"white"}} to={"/Book_Marketing"} >
  Book Marketing  
@@ -74,22 +74,22 @@ const MegaMenu = () => {
        
   </li>
   
-                <li  className="nested-dropdown-container"  >
+                <li  className="listitemcolorhover nested-dropdown-container"  >
                   <Link style={{"color" :"white"}}  to={"/Book-Publising"} >
                 Book Publising 
                   </Link>
   </li>
-  <li  className="nested-dropdown-container"  >
+  <li  className="listitemcolorhover nested-dropdown-container"  >
                   <Link  style={{"color" :"white"}}  to={"/Book_Editing"} >
                 Book Editing 
                   </Link>
   </li>
-  <li  className="nested-dropdown-container"  >
+  <li  className="listitemcolorhover nested-dropdown-container"  >
                   <Link style={{"color" :"white"}}   to={"/Ghost_Writing"} >
               Ghost Writing 
                   </Link>
   </li>
-  <li  className="nested-dropdown-container"  >
+  <li  className="listitemcolorhover nested-dropdown-container"  >
                   <Link style={{"color" :"white"}}   to={"/Book-Cover-Design"} >
              Book Cover Design
                   </Link>
@@ -102,7 +102,7 @@ const MegaMenu = () => {
   
   
   <Link itemprop="availability" href="https://schema.org/InStock"
-                className="block py-2 pl-3 pr-4 text-white rounded  md:p-0"
+                className="listitemcolorhover block py-2 pl-3 pr-4 text-white rounded  md:p-0"
                 onClick={()=>{
                   setDropdown(!dropdown)
                 }}
@@ -112,31 +112,32 @@ const MegaMenu = () => {
   {
     dropdown ? <>
     
-   
-  <li>
+    
+  <li className='listitemcolorhover'>
     <Link style={{"color" :"black"}} to={"/Book_Marketing"} >
+
  Book Marketing  
   </Link>
        
   </li>
   
-                <li   className="block  py-2 pl-3 pr-4 text-white rounded  md:p-0"  >
+                <li   className="listitemcolorhover block  py-2 pl-3 pr-4 text-white rounded  md:p-0"  >
                   <Link style={{"color" :"black"}}  to={"/Book-Publising"} >
                 Book Publising 
                   </Link>
   </li>
   <li    >
-                  <Link    className="block py-2 pl-3 pr-4 text-white rounded  md:p-0" style={{"color" :"black"}}  to={"/Book_Editing"} >
+                  <Link    className="listitemcolorhover block py-2 pl-3 pr-4 text-white rounded  md:p-0" style={{"color" :"black"}}  to={"/Book_Editing"} >
                 Book Editing 
                   </Link>
   </li>
   <li   >
-                  <Link   className="block py-2 pl-3 pr-4 text-white rounded  md:p-0" style={{"color" :"black"}}   to={"/Ghost_Writing"} >
+                  <Link   className="listitemcolorhover block py-2 pl-3 pr-4 text-white rounded  md:p-0" style={{"color" :"black"}}   to={"/Ghost_Writing"} >
               Ghost Writing 
                   </Link>
   </li>
   <li    >
-                  <Link   className="block pt-2 pl-3 pr-4 text-white rounded  md:p-0" style={{"color" :"black"}}   to={"/Book-Cover-Design"} >
+                  <Link   className="listitemcolorhover block pt-2 pl-3 pr-4 text-white rounded  md:p-0" style={{"color" :"black"}}   to={"/Book-Cover-Design"} >
              Book Cover Design
                   </Link>
   </li>
@@ -157,13 +158,13 @@ const MegaMenu = () => {
   
   
             <Link itemprop="availability" href="https://schema.org/InStock"
-                className="block  pl-3 pr-4 text-white rounded  md:p-0"
+                className="listitemcolorhover block  pl-3 pr-4 text-white rounded  md:p-0"
                 to={'/Pricing'}
               >
                Pricing
               </Link>
               <Link itemprop="availability" href="https://schema.org/InStock"
-                className="block  pl-3 pr-4 text-white rounded  md:p-0"
+                className="listitemcolorhover block  pl-3 pr-4 text-white rounded  md:p-0"
                 to={'/Our-Portfolio'}
               >
                 
@@ -173,7 +174,7 @@ Portfolio
          
             <li>
              <Link itemprop="availability" href="https://schema.org/InStock"
-                className="block  text-white rounded  md:p-0   "
+                className="listitemcolorhover block text-white rounded  md:p-0   "
                 to={'/Contact'}
               >
                 Contact Us
@@ -184,7 +185,7 @@ Portfolio
   
         <button
           style={{ background: "#232F3F" }}
-          className="w-full md:w-auto text-white font-bold py-2 px-4 rounded-full custom-button"
+          className="listitemcolorhover w-full md:w-auto text-white font-bold py-2 px-4 rounded-full custom-button"
           itemscope
           itemtype="http://schema.org/Button"
           onClick={handleClick}
@@ -195,7 +196,7 @@ Portfolio
   <button
   onClick={handleClick23}
     style={{ background: "#232F3F" }}
-    className="w-full md:w-auto text-white font-bold py-2 px-4 rounded-full custom-button"
+    className="listitemcolorhover w-full md:w-auto text-white font-bold py-2 px-4 rounded-full custom-button"
     itemscope
     itemtype="http://schema.org/Button"
   >

@@ -17,7 +17,7 @@ const Pricing_Card_Sec = ({ title, description, imageUrl, buttonText,style }) =>
         </Link>
       </div>
       <div className='pricing-card2 w-full' >
-        <img  className='h-36 w-96'  src={imageUrl} alt="" />
+        <img  className='h-36 w-96'  src={imageUrl}  alt="Branding Elements of Thereadsy"/>
       </div>
     </div>
   );
