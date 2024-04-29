@@ -25,10 +25,10 @@ import { Helmet } from 'react-helmet'
 const Our_Portfolio = () => {
   return (
  <>
-       <Helmet>
-        <title>Our Portfolio - Book Publishing, Writing, Editing, Marketing | Thereadsy</title>
-        <meta name="description" content="Explore our stunning portfolio of book publishing, writing, editing, and marketing services at Thereadsy. We provide top-notch services to authors and writers, helping them achieve their literary goals." />
-      </Helmet>
+   <Helmet>
+    <title>Our Portfolio - Book Publishing, Writing, Editing, Marketing | Thereadsy</title>
+    <meta name="description" content="Explore our stunning portfolio of book publishing, writing, editing, and marketing services at Thereadsy. We provide top-notch services to authors and writers, helping them achieve their literary goals. Discover our portfolio of ghostwriting services, including ghostwriting agency, ghostwriting AI, and ghostwriting apps. Explore our partnerships with book publishers in Austin, Texas and Arkansas, such as Barnes and Noble and IngramSpark. Learn about effective book marketing strategies, including book promotion services and book marketing for self-published authors. See examples of book covers created with AI using our book cover ai generator. From book promotion packages to self-publishing options like Kindle Direct Publishing and Lulu Publishing, our portfolio showcases the best in the industry." />
+</Helmet>
 
   <MegaMenu/>
  <Portfolio_Banner/>

@@ -24,12 +24,13 @@ import { Helmet } from 'react-helmet'
 const Inner_Portfolio = () => {
   return (
  <>
- <Helmet>
-        <title>Inner Portfolio | Thereadsy</title>
-        <meta name="description" content="Explore our portfolio of books and projects at Thereadsy." />
-        <meta property="og:title" content="Book Writing & Publishing Services - Pricing | BookWritingExperts" />
-      </Helmet>
-  <MegaMenu/>
+<Helmet>
+    <title>Inner Portfolio | Thereadsy</title>
+    <meta name="description" content="Explore our portfolio of books and projects at Thereadsy. Discover ghostwriting agency services, book publishers in Austin Texas and Arkansas like Barnes and Noble and IngramSpark, book marketing strategies, and more. Learn about book writer AI, book promotion companies, best book marketing services, and effective book promotion techniques. Find out about ebook promotion, Kindle Direct Publishing, self-publishing options, and book cover design tools including book cover ai generator. From promoting your book on Amazon to marketing strategies for self-published authors, our portfolio showcases the best in the industry." />
+    <meta property="og:title" content="Inner Portfolio | Thereadsy" />
+</Helmet>
+<MegaMenu/>
+
  <Portfolio_Banner/>
  <div className='md:w-2/3 w-full flex m-auto justify-between flex-wrap my-12'>
 

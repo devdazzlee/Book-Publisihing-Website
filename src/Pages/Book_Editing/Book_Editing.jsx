@@ -25,10 +25,11 @@ const Book_Editing = () => {
   return (
      <>
       <Helmet>
-        <title>Book Editing Services - The Readsy</title>
-        <meta name="description" content="Elevate your writing with professional book editing services from The Readsy. Our experienced editors will refine your manuscript to perfection, ensuring it's ready for publication." />
-        <meta name="keywords" content="book editing services, thereadsy, manuscript editing, professional editing, book proofreading" />
-      </Helmet>
+    <title>Book Editing Services - The Readsy</title>
+    <meta name="description" content="Elevate your writing with professional book editing services from The Readsy. Our experienced editors will refine your manuscript to perfection, ensuring it's ready for publication. Explore ghost writing agency, ghost writing AI, ghost writing app, ghost writing a book, book publishers in Austin Texas and Arkansas, Barnes and Noble, IngramSpark, and other book marketing services." />
+    <meta name="keywords" content="book editing services, thereadsy, manuscript editing, professional editing, book proofreading, ghost writing agency, ghost writing AI, ghost writing app, ghost writing a book, ghost writing and publishing, book publishers austin Texas, book publishers Arkansas, barnes and noble, ingramspark, book marketing services, books a million coupon, book promotion services, book writer AI, book writer AI free, book writer awards, book writer aesthetic, book writer AI online free, book writer AI generator, book writer author, book promotion companies, book promotion sites, best book marketing services, abebooks coupon, promote my book, book depository coupon, promote your book, marketing your book, book marketing for self published authors, promote book, book marketing packages, book promotion websites, amazon book promotion, free book promotion sites, ebook promotion, market your book, book promotion packages, book write AI, book and writer name in English, book and writer, book author bio, book author biography, book black author, book writer corner reviews, book writer called, colleen book writer, book author description, book cover AI generator, book cover art, book cover background, book cover blank template, ghost writing apps that pay, ghost writing academy, ghost writing alphabet, ghost writing a memoir, spare ghost written" />
+</Helmet>
+
            <MegaMenu/>
            <Banner2
       title="Revitalize Your Writing"

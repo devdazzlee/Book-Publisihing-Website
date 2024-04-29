@@ -26,11 +26,12 @@ const Book_Publising = () => {
   ];
   return (
      <>
-      <Helmet>
-        <title>Book Editing Services - The Readsy</title>
-        <meta name="description" content="Elevate your writing with professional book editing services from The Readsy. Our experienced editors will refine your manuscript to perfection, ensuring it's ready for publication." />
-        <meta name="keywords" content="book editing services, thereadsy, manuscript editing, professional editing, book proofreading" />
-      </Helmet>
+     <Helmet>
+    <title>Book Marketing Services - The Readsy</title>
+    <meta name="description" content="Supercharge your book marketing efforts with The Readsy's comprehensive book marketing services. From promotion strategies to reaching new readers, we help authors maximize their book's visibility. Explore ghost writing agencies, book publishers in Austin Texas and Arkansas, and learn about the best book marketing services and promotion companies." />
+    <meta name="keywords" content="book marketing services, thereadsy, book promotion services, ghost writing agency, book publishers austin Texas, book publishers Arkansas, barnes and noble, ingramspark, book promotion companies, book promotion sites, best book marketing services, abebooks coupon, promote my book, book depository coupon, promote your book, marketing your book, book marketing for self published authors, promote book, book marketing packages, book promotion websites, amazon book promotion, free book promotion sites, ebook promotion, market your book, book promotion packages, book and writer name in English, book and writer, book author bio, book author biography, book black author, book writer corner reviews, book writer called, colleen book writer, book author description, book cover ai generator, book cover art, book cover background, book cover blank template, ghost writing apps that pay, ghost writing academy, ghost writing alphabet, ghost writing a memoir, spare ghost written, book promo, face book ads, amazon ads for authors, kdp advertising, ad book, book promotion ideas, amazon kdp ads, amazon book ads, ogilvy on advertising, facebook ad manager, book ads, advertising amazon kdp, kdp amazon ads, facebook ads made easy, advertising kdp, breakthrough advertising digital copy, new book advertisement, amazon ads for kindle books, advertising today book, author advertising, promote your ebook, kindle promotion, book marketing and publicity, kbookpromotions, fiverr book promotion, ways to promote your book, market my book for me, readsy app, book cover contest, book cover cartoon, christian book promotion sites, marketing a self published book, amazon book promotion, kindle direct publishing, amazon self publishing, self publishing, lulu publishing, amazon kdp publishing, book publishers boston, book publishers cincinnati, book publishers dubai, book publishers Edinburgh, book publishers Exeter, book publishers for self publishing, book publishers for sale, best author websites, best websites for writers, writing websites for authors, book writer website, squarespace author website, making an author website, best author websites 2024, web page writer, anne lamott website, alexis hall website, author website examples, self publish book printing" />
+</Helmet>
+
            <MegaMenu/>
            <Banner2
       title="Book Marketing"
