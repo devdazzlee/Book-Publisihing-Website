@@ -31,6 +31,19 @@ export default function BasicModal() {
     number: ''
   });
 
+  const [isChecked, setIsChecked] = useState({
+    consent1: false,
+    consent2: false
+  });
+
+  const handleCheckboxChange = (e) => {
+    const { name, checked } = e.target;
+    setIsChecked(prevState => ({
+      ...prevState,
+      [name]: checked
+    }));
+  };
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prevState => ({
@@ -40,19 +53,27 @@ export default function BasicModal() {
   };
 
   const handleSubmit = async () => {
+    if (!isChecked.consent1 || !isChecked.consent2) {
+      alert('Please provide consent by checking both boxes before submitting.');
+      return;
+    }
+
     try {
       const response = await axios.post('https://the-readsy-ten.vercel.app/api/messages', formData);
-     alert('Form submitted successfully!');
-      handleClose()
+      alert('Form submitted successfully!');
+      handleClose();
       setFormData({
         name: '',
         email: '',
         textarea: '',
         number: ''
       }); // Reset form fields
-  
+      setIsChecked({
+        consent1: false,
+        consent2: false
+      }); // Reset checkboxes
     } catch (error) {
-      handleClose()
+      handleClose();
       console.error('Error sending data:', error);
       alert('Error sending message');
     }
@@ -138,19 +159,39 @@ export default function BasicModal() {
   className='my-2 block p-2.5 md:w-full  w-full text-sm border border-gray-400 bg-gray-50 rounded-lg border border-gray-300'
   placeholder="Write your thoughts here..."
 ></textarea>
-
+<div className='flex items-start mb-4'>
+                  <input
+                    type="checkbox"
+                    id="consent1"
+                    name="consent1"
+                    checked={isChecked.consent1}
+                    onChange={handleCheckboxChange}
+                    className='block mt-1 mr-2'
+                  />
+                  <label htmlFor="consent1" className='font-semibold block text-start text-sm'>
+                    By providing a telephone number and submitting this form you are consenting to be contacted by SMS text message. Message & data rates may apply. You can reply STOP to opt-out of further messaging.
+                  </label>
+                </div>
+                <div className='flex items-start mb-4'>
+                  <input
+                    type="checkbox"
+                    id="consent2"
+                    name="consent2"
+                    checked={isChecked.consent2}
+                    onChange={handleCheckboxChange}
+                    className='block mt-1 mr-2'
+                  />
+                  <label htmlFor="consent2" className='font-semibold block text-start text-sm'>
+                    I consent to receive SMS/MMS messages from The Readsy
+                  </label>
+                </div>
 <button
   onClick={handleSubmit}
   className='form-button-full md:w-full w-full bg-cyan-400 text-white font-bold py-2 px-4 rounded-full'
 >
   CONTACT WITH US
 </button>
-<p  className='my-2 py-3 font-semibold  block xl:w-72 md: text-start text-sm ' >
-By providing a telephone number and submitting this form you are consenting to be contacted by SMS text message. Message & data rates may apply. You can reply STOP to opt-out of further messaging.
 
-
-
-</p>
 <ToastContainer />
 
 </div>
