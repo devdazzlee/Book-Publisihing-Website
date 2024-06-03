@@ -11,7 +11,10 @@ const Conact_Form = () => {
     number: ''
   });
 
-  const [isChecked, setIsChecked] = useState(false);
+  const [isChecked, setIsChecked] = useState({
+    consent1: false,
+    consent2: false
+  });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -22,13 +25,17 @@ const Conact_Form = () => {
   };
 
   const handleCheckboxChange = (e) => {
-    setIsChecked(e.target.checked);
+    const { name, checked } = e.target;
+    setIsChecked(prevState => ({
+      ...prevState,
+      [name]: checked
+    }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!isChecked) {
-      alert('Please provide consent by checking the box before submitting.');
+    if (!isChecked.consent1 || !isChecked.consent2) {
+      alert('Please provide consent by checking both boxes before submitting.');
       return;
     }
 
@@ -42,7 +49,10 @@ const Conact_Form = () => {
         textarea: '',
         number: ''
       }); // Reset form fields
-      setIsChecked(false); // Reset checkbox
+      setIsChecked({
+        consent1: false,
+        consent2: false
+      }); // Reset checkboxes
     } catch (error) {
       console.error('Error sending data:', error);
       alert('Error sending message');
@@ -110,16 +120,31 @@ const Conact_Form = () => {
               placeholder="Leave a comment..."
             ></textarea>
           </div>
-          <div className='flex items-start mb-6'>
+          <div className='flex items-start mb-4'>
             <input
               type="checkbox"
-              id="consent"
-              checked={isChecked}
+              id="consent1"
+              name="consent1"
+              checked={isChecked.consent1}
               onChange={handleCheckboxChange}
               className='block mt-1 mr-2'
             />
-            <label htmlFor="consent" className='font-semibold block text-start text-sm'>
-              I consent to receive SMS/MMS messages from The Readsy
+            <label htmlFor="consent1" className='font-semibold block text-start text-sm'>
+            By providing a telephone number and submitting this form you are consenting to be contacted by SMS text message. Message & data rates may apply. You can reply STOP to opt-out of further messaging.
+            </label>
+          </div>
+          <div className='flex items-start mb-4'>
+            <input
+              type="checkbox"
+              id="consent2"
+              name="consent2"
+              checked={isChecked.consent2}
+              onChange={handleCheckboxChange}
+              className='block mt-1 mr-2'
+            />
+            <label htmlFor="consent2" className='font-semibold block text-start text-sm'>
+            I consent to receive SMS/MMS messages from The Readsy
+
             </label>
           </div>
           <div className='text-center'>
