@@ -44,7 +44,13 @@ const Quote_Free = () => {
       <div className='form-book-bg'>
         <div className='form-Book'>
 
-          <h1 style={{ "color": "#141D29" }} className='md:text-4xl text-2xl font-bold my-6'>Request A Free Quote </h1>
+          <h1 style={{ "color": "#141D29" }} className='md:text-4xl text-2xl font-bold mb-2'>Request A Free Quote </h1>
+          <p  className=' py-2 mb-2 font-semibold  text-black block xl:w-8/12	 text-center text-sm ' >
+By providing a telephone number and submitting this form you are consenting to be contacted by SMS text message. Message & data rates may apply. You can reply STOP to opt-out of further messaging.
+
+
+
+</p>
           <div className='flex w-3/5 wrap-flex justify-center'>
             <input
               type="text"

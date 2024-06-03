@@ -40,6 +40,7 @@ const Form = () => {
   return (
     <div className='form-shadow'>
       <h1 style={{ "color": "#0A2840" }} className='text-2xl font-medium text-center'>Start Your Publishing <br />Journey!</h1>
+    
       <div className='flex flex-col'>
 
         <input
@@ -82,6 +83,12 @@ const Form = () => {
         >
           CONTACT WITH US
         </button>
+        <p  className='my-2 py-3 font-semibold  block xl:w-72 md: text-start text-sm ' >
+By providing a telephone number and submitting this form you are consenting to be contacted by SMS text message. Message & data rates may apply. You can reply STOP to opt-out of further messaging.
+
+
+
+</p>
         <ToastContainer />
 
       </div>

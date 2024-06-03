@@ -64,6 +64,17 @@ const Policies = () => {
         Our privacy policy does not apply to the information collected through offline media. This applies only to the information
         we collect through online channels.
       </p>
+
+
+
+      
+      <h2 className="text-2xl mb-4 font-semibold text-gray-700">Privacy Assurance: No Sharing of Mobile Information with Third Parties</h2>
+      <p className="text-gray-600 pb-12">
+      No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All other categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties
+
+
+
+      </p>
     </div>
   );
 };

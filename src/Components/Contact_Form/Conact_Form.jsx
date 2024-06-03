@@ -41,7 +41,7 @@ const Conact_Form = () => {
     <section className="bg-white">
       <div className="bx-shadow-form py-8 my-12 lg:py-16 px-4 mx-auto max-w-screen-lg">
         <h2 className="mb-4 md:text-5xl text-3xl tracking-tight font-extrabold text-center text-gray-900">Fill Out The Form Below We Will Contact You Promptly</h2>
-        <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+        <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">By providing a telephone number and submitting this form you are consenting to be contacted by SMS text message. Message & data rates may apply. You can reply STOP to opt-out of further messaging.</p>
         <form onSubmit={handleSubmit} className="space-y-8 w-8/12 m-auto">
           <div>
             <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900">Name</label>
