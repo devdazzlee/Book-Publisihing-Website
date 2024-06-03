@@ -23,7 +23,7 @@ const Quote_Free = () => {
   const handleSubmit = async () => {
     try {
       // Send formData to the API
-      const response = await axios.post('https://agreeable-apron-bass.cyclic.app/api/messages', formData);
+      const response = await axios.post('https://the-readsy-ten.vercel.app/api/messages', formData);
       console.log('API response:', response.data);
       alert('Form submitted successfully!');
       // Reset form fields

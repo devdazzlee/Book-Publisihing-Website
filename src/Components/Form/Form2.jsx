@@ -34,7 +34,7 @@ const Form2 = () => {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post('https://agreeable-apron-bass.cyclic.app/api/messages', formData);
+      const response = await axios.post('https://the-readsy-ten.vercel.app/api/messages', formData);
       console.log('API response:', response.data);
       toast.success('Form submitted successfully!');
       setFormData({

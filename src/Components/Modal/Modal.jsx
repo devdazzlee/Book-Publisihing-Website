@@ -41,7 +41,7 @@ export default function BasicModal() {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post('https://agreeable-apron-bass.cyclic.app/api/messages', formData);
+      const response = await axios.post('https://the-readsy-ten.vercel.app/api/messages', formData);
      alert('Form submitted successfully!');
       handleClose()
       setFormData({

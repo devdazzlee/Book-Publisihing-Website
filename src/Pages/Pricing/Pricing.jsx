@@ -20,21 +20,15 @@ const Pricing = () => {
   return (
     <>
        <Helmet>
-    <title>Book Writing & Publishing Services - Pricing | Thereadsy</title>
+    <title>Pricing | Thereadsy</title>
     <meta name="description" content="Check out our affordable pricing for book writing, editing, publishing, marketing, and more at Thereadsy. Get a quote for your project now! Explore ghostwriting agency services, book marketing strategies, and self-publishing options. Find the best book promotion companies and discover effective book marketing techniques. Learn about Kindle Direct Publishing, self-publishing costs, and ways to promote your book on Amazon." />
     <meta property="og:title" content="Book Writing & Publishing Services - Pricing | Thereadsy" />
     <meta property="og:description" content="Check out our affordable pricing for book writing, editing, publishing, marketing, and more at Thereadsy. Get a quote for your project now! Explore ghostwriting agency services, book marketing strategies, and self-publishing options. Find the best book promotion companies and discover effective book marketing techniques. Learn about Kindle Direct Publishing, self-publishing costs, and ways to promote your book on Amazon." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://thereadsy.com/Pricing" />
-    <meta property="og:image" content="https://thereadsy.com/static/media/logo%20black%20(1).bec0b67ea291331312b32a2301ee3e36.svg" />
-    <meta name="twitter:title" content="Book Writing & Publishing Services - Pricing | Thereadsy" />
-    <meta name="twitter:description" content="Check out our affordable pricing for book writing, editing, publishing, marketing, and more at Thereadsy. Get a quote for your project now! Explore ghostwriting agency services, book marketing strategies, and self-publishing options. Find the best book promotion companies and discover effective book marketing techniques. Learn about Kindle Direct Publishing, self-publishing costs, and ways to promote your book on Amazon." />
 </Helmet>
 
 
       <MegaMenu/>
     <Pricing_Banner/>
-{/* <Pricing_Card/> */}
 <div className='my-12' >
 
 <h1 className='md:text-5xl text-3xl     text-center my-12 font-bold mb-4'>Book Publishing</h1>
